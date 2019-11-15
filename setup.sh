@@ -12,7 +12,7 @@ apt-get install -y unclutter
 
 ## Copy the scripts into their locations
 /bin/cp -rf autostart /home/pi/.config/lxsession/LXDE-pi/autostart
-/bin/cp -rf display.sh /home/pi/display/sh
+/bin/cp -rf display.sh /home/pi/display.sh
 
 ## Give the display script the right privledges
 chmod 777 /home/pi/display.sh
