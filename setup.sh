@@ -1,8 +1,5 @@
 #!/bin/sh
 
-## Pull the most recent version of the repo
-git pull
-
 ## Update the system
 apt-get update
 apt-get upgrade -y
