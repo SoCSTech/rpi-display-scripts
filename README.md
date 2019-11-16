@@ -1,5 +1,5 @@
 # rpi_display_scripts
-Scripts used for autobooting the display screens serving content from Yggdrasil.
+A repository of the scripts used to setup a Raspberry Pi to serve content carousels from the Yggdrasil Service.
 
 ## Usage
 1. Clone the repository
