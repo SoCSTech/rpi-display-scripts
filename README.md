@@ -1,6 +1,9 @@
 # rpi_display_scripts
 A repository of the scripts used to setup a Raspberry Pi to serve content carousels from the Yggdrasil Service.
 
+## How does it work?
+UNDER CONSTRUCTION
+
 ## Usage
 1. Clone the repository
 ```bash
@@ -21,6 +24,3 @@ sudo chmod 777 setup.sh
 ```bash
 sudo ./setup.sh
 ```
-
-## How does it work?
-UNDER CONSTRUCTION
