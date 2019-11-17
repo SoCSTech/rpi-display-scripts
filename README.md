@@ -1,6 +1,9 @@
 # rpi_display_scripts
 A repository of the scripts used to setup a Raspberry Pi to serve content carousels from the Yggdrasil Service.
 
+## Requirements
+UNDER CONSTRUCTION
+
 ## Scripts
 UNDER CONSTRUCTION
 
