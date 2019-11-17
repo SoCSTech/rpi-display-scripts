@@ -2,7 +2,10 @@
 A repository of the scripts used to setup a Raspberry Pi to serve content carousels from the Yggdrasil Service.
 
 ## Requirements
-UNDER CONSTRUCTION
+* Raspberry Pi 3 or newer
+* Raspbian OS
+* An internet connection
+* A display with a resolution of 1080p or higher
 
 ## Scripts
 * setup.sh - The deployment script for automating the setup of the Raspberry Pi as a display node
