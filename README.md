@@ -1,6 +1,9 @@
 # rpi_display_scripts
 A repository of the scripts used to setup a Raspberry Pi to serve content carousels from the Yggdrasil Service.
 
+## Scripts
+UNDER CONSTRUCTION
+
 ## How does it work?
 ### Setup.sh
 The setup script is used to automate the setup of a Raspberry Pi as a Display node for Yggdrasil.
