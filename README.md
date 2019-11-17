@@ -21,3 +21,6 @@ sudo chmod 777 setup.sh
 ```bash
 sudo ./setup.sh
 ```
+
+## How does it work?
+UNDER CONSTRUCTION
