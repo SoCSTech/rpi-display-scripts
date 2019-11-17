@@ -1,4 +1,4 @@
-# rpi_display_scripts
+# Raspberry Pi Yggdrasil Display Node Scripts
 A repository of the scripts used to setup a Raspberry Pi to serve content carousels from the Yggdrasil Service.
 
 ## Requirements
