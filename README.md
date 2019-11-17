@@ -1,20 +1,20 @@
 # Raspberry Pi Yggdrasil Display Node Scripts
-A repository of the scripts used to setup a Raspberry Pi to serve content carousels from the Yggdrasil Service.
+A repository of the scripts used to setup a Raspberry Pi (RPI) to serve content carousels from the Yggdrasil Service.
 
 ## Requirements
-* Raspberry Pi 3 or newer
+* RPI 3 or newer
 * Raspbian OS
 * An internet connection
 * A display with a resolution of 1080p or higher
 
 ## Scripts
-* setup.sh - The deployment script for automating the setup of the Raspberry Pi as a display node
+* setup.sh - The deployment script for automating the setup of the RPI as a display node
 * autostart - The configuration file used by Raspbian to launch applications and scripts as the system boots
 * display.sh - Launches the Chromium browser and points it to the server hosting Yggdrasil, using the systems hostname as the carousel id.
 
 ## How does it work?
 ### Setup.sh
-The setup script is used to automate the setup of a Raspberry Pi as a Display node for Yggdrasil.
+The setup script is used to automate the setup of a RPI as a Display node for Yggdrasil.
 
 The script does the following
 * Updates the system package list and upgrades the packages to their current versions
