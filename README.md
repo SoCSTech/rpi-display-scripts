@@ -5,7 +5,9 @@ A repository of the scripts used to setup a Raspberry Pi to serve content carous
 UNDER CONSTRUCTION
 
 ## Scripts
-UNDER CONSTRUCTION
+* setup.sh - The deployment script for automating the setup of the Raspberry Pi as a display node
+* autostart - The configuration file used by Raspbian to launch applications and scripts as the system boots
+* display.sh - Launches the Chromium browser and points it to the server hosting Yggdrasil, using the systems hostname as the carousel id.
 
 ## How does it work?
 ### Setup.sh
