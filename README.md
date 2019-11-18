@@ -43,3 +43,7 @@ sudo chmod +x setup.sh
 ```bash
 sudo ./setup.sh
 ```
+
+5. Amend the RPIs hostname files to contain the ID of the desired Yggdrasil carousel
+    * Edit /etc/hosts
+    * Edit /etc/hostname
