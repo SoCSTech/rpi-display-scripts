@@ -36,7 +36,7 @@ cd rpi-display-scripts
 
 3. Allow execution of the setup script
 ```bash
-sudo chmod 777 setup.sh
+sudo chmod +x setup.sh
 ```
 
 4. Execute the setup script
