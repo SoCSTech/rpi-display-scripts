@@ -8,9 +8,9 @@ A repository of the scripts used to setup a Raspberry Pi (RPI) to serve content 
 * A display with a resolution of 1080p or higher
 
 ## Scripts
-* setup.sh - The deployment script for automating the setup of the RPI as a display node
-* autostart - The configuration file used by Raspbian to launch applications and scripts as the system boots
-* display.sh - Launches the Chromium browser and points it to the server hosting Yggdrasil, using the systems hostname as the carousel id.
+* [setup.sh](https://github.com/SoCSTech/rpi-display-scripts/blob/master/setup.sh) - The deployment script for automating the setup of the RPI as a display node
+* [autostart](https://github.com/SoCSTech/rpi-display-scripts/blob/master/autostart) - The configuration file used by Raspbian to launch applications and scripts as the system boots
+* [display.sh](https://github.com/SoCSTech/rpi-display-scripts/blob/master/display.sh) - Launches the Chromium browser and points it to the server hosting Yggdrasil, using the systems hostname as the carousel id.
 
 ## How does it work?
 ### Setup script
@@ -20,8 +20,8 @@ The script does the following:
 * Updates the system package list and upgrades the packages to their current versions
 * Install Unclutter, a package for hiding the system mouse when it is not in use
 * Copies and overwrites the autostart configuration file to the raspbian default location
-* Copies the display.sh script to the users home directory
-* Gives the display.sh script execution rights
+* Copies the [display.sh](https://github.com/SoCSTech/rpi-display-scripts/blob/master/display.sh) script to the users home directory
+* Gives the [display.sh](https://github.com/SoCSTech/rpi-display-scripts/blob/master/display.sh) script execution rights
 
 ### Display script
 The display script is what actually launches the chromium browser and points it to the Yggdrasil server.
