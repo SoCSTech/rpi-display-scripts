@@ -13,7 +13,7 @@ A repository of the scripts used to setup a Raspberry Pi (RPI) to serve content 
 * display.sh - Launches the Chromium browser and points it to the server hosting Yggdrasil, using the systems hostname as the carousel id.
 
 ## How does it work?
-### Setup.sh
+### Setup
 The setup script is used to automate the setup of a RPI as a Display node for Yggdrasil.
 
 The script does the following
