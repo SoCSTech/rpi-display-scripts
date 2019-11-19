@@ -16,7 +16,7 @@ A repository of the scripts used to setup a Raspberry Pi (RPI) to serve content 
 ### Setup script
 The setup script is used to automate the setup of a RPI as a Display node for Yggdrasil.
 
-The script does the following
+The script does the following:
 * Updates the system package list and upgrades the packages to their current versions
 * Install Unclutter, a package for hiding the system mouse when it is not in use
 * Copies and overwrites the autostart configuration file to the raspbian default location
@@ -24,7 +24,14 @@ The script does the following
 * Gives the display.sh script execution rights
 
 ### Display script
-UNDER CONSTRUCTION
+The display script is what actually launches the chromium browser and points it to the Yggdrasil server.
+
+The script does the following:
+* Kills all Chromium browser isntances
+* Gets the hostname of the machine
+* Launches the Chromium Browser in Fullscreen, Incognito and Kiosk mode, with all error dialog boxes disabled
+
+Note - Kiosk mode disables the ability to interact with the Browser
 
 ## Usage
 1. Clone the repository
