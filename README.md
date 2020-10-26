@@ -33,7 +33,8 @@ The script does the following:
 
 Note - Kiosk mode disables the ability to interact with the Browser
 
-## Usage
+## Install
+### Raspbian Install
 1. Clone the repository
 ```bash
 git clone https://github.com/SoCSTech/rpi-display-scripts.git
@@ -57,3 +58,32 @@ sudo ./setup.sh
 5. Amend the RPIs hostname files to contain the ID of the desired Yggdrasil carousel
     * Edit /etc/hosts
     * Edit /etc/hostname
+
+
+### MacOS Install
+1. Install Google Chomre
+
+2. Clone the repository
+```bash
+git clone https://github.com/SoCSTech/rpi-display-scripts.git
+```
+
+3. Move into the repository
+```bash
+cd rpi-display-scripts
+```
+
+4. Allow execution of the setup script
+```bash
+sudo chmod +x setup_mac.sh
+```
+
+5. Change the Macs Hostname to match the carousel ID on Yggdrasil
+```bash
+labdispmac
+```
+
+6. Reload the bash profile to launch the display node script, on subseequent reboots you will only need to launch the terminal.
+```bash
+source ~/.bash_profile
+```
