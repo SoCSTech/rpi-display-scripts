@@ -78,12 +78,7 @@ cd rpi-display-scripts
 sudo chmod +x setup_mac.sh
 ```
 
-5. Change the Macs Hostname to match the carousel ID on Yggdrasil
-```bash
-labdispmac
-```
-
-6. Reload the bash profile to launch the display node script, on subseequent reboots you will only need to launch the terminal.
+5. Reload the bash profile to launch the display node script, on subseequent reboots you will only need to launch the terminal.
 ```bash
 source ~/.bash_profile
 ```
