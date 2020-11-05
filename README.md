@@ -99,7 +99,7 @@ sudo ls
 - Click "Add" to confirm
 ```
 
-8. Set the User to login automaticall on boot
+8. Set the User to auto-login on boot
 ```
 - Open "System Preferences"
 - Click "Users & Groups"
