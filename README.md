@@ -99,3 +99,15 @@ sudo ls
 - Click "Add" to confirm
 ```
 
+8. Set the User to login automaticall on boot
+```
+- Open "System Preferences"
+- Click "Users & Groups"
+- Click the padlock
+- Enter the user password
+- Click the "Automatic Login" menu
+- Select the user you wish to login to
+- Enter the user Password
+- Click the padlock
+```
+
