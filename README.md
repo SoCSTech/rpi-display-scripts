@@ -88,4 +88,14 @@ sudo ls
 ./setup_mac.sh
 ```
 
-7. After the setup script is finished the machine will now run the display script anytime the terminal is opened
+7. Add Terminal to the User Login items
+```
+- Open "System Preferences"
+- Click "Users & Groups"
+- Click "Login Items"
+- Click the "+"
+- Navigate to "Applications/Utilities"
+- Click "Terminal"
+- Click "Add" to confirm
+```
+
