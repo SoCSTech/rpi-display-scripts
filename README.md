@@ -76,15 +76,16 @@ cd rpi-display-scripts
 4. Allow execution of the setup script
 ```bash
 sudo chmod +x setup_mac.sh
-sudo chmod +x display_mac.sh
 ```
 
-5. Allow execution of the setup script
+5. Cache the sudo password for the setup script to leach
+```bash
+sudo ls
+```
+
+6. Run the setup script
 ```bash
 ./setup_mac.sh
 ```
 
-6. Reload the bash profile to launch the display node script, on subseequent reboots you will only need to launch the terminal.
-```bash
-source ~/.bash_profile
-```
+7. After the setup script is finished the machine will now run the display script anytime the terminal is opened
