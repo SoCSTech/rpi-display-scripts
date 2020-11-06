@@ -111,3 +111,11 @@ sudo ls
 - Click the padlock
 ```
 
+9. Disable the screensaver
+```
+- Open "System Preferences"
+- Click "Desktop & Screen Saver"
+- Click "Screen Saver"
+- Click "Start after"
+- Select "Never"
+```
