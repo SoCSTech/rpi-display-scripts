@@ -63,32 +63,7 @@ sudo ./setup.sh
 ### MacOS Install
 1. Install Google Chomre
 
-2. Clone the repository
-```bash
-git clone https://github.com/SoCSTech/rpi-display-scripts.git
-```
-
-3. Move into the repository
-```bash
-cd rpi-display-scripts
-```
-
-4. Allow execution of the setup script
-```bash
-sudo chmod +x setup_mac.sh
-```
-
-5. Cache the sudo password for the setup script to leach
-```bash
-sudo ls
-```
-
-6. Run the setup script
-```bash
-./setup_mac.sh
-```
-
-7. Add Terminal to the User Login items
+2. Add Terminal to the User Login items
 ```
 - Open "System Preferences"
 - Click "Users & Groups"
@@ -99,7 +74,7 @@ sudo ls
 - Click "Add" to confirm
 ```
 
-8. Set the User to auto-login on boot
+3. Set the User to auto-login on boot
 ```
 - Open "System Preferences"
 - Click "Users & Groups"
@@ -111,11 +86,28 @@ sudo ls
 - Click the padlock
 ```
 
-9. Disable the screensaver
+4. Disable the screensaver
 ```
 - Open "System Preferences"
 - Click "Desktop & Screen Saver"
 - Click "Screen Saver"
 - Click "Start after"
 - Select "Never"
+```
+
+5. Install git
+```
+- Open Terminal
+- Enter "git"
+- Accept installing xcode tools
+```
+
+6. Open Terminal and run the following commands:
+```bash
+mkdir Developement
+cd Development
+git clone https://github.com/SoCSTech/rpi-display-scripts.git
+cd rpi-display-scripts
+sudo chmod +x setup_mac.sh
+./setup_mac.sh
 ```
