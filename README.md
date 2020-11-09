@@ -61,7 +61,7 @@ sudo ./setup.sh
 
 
 ### MacOS Install
-1. Install Google Chomre
+1. Install Google Chrome - Downloadable [here](https://www.google.com/intl/en_uk/chrome/)
 
 2. Add Terminal to the User Login items
 ```
