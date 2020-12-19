@@ -1,9 +1,8 @@
-# Raspberry Pi Yggdrasil Display Node Scripts
-A repository of the scripts used to setup a Raspberry Pi (RPI) to serve content carousels from the Yggdrasil Service.
-
+# Yggdrasil Client
+The scripts for the Yggdrasil display client.
 ## Requirements
-* RPI 3 or newer
-* Raspbian OS
+* RPI 3 - Raspbian OS
+* Macintosh Device - MacOS 10.13 onwards
 * An internet connection
 * A display with a resolution of 1080p or higher
 
